@@ -15,7 +15,7 @@ const History = () => {
                 <div className="flex justify-between mr-14 ">
                     <h1 className="">gambar</h1>
                     <div className="flex flex-col">
-                        <h1 className="">DATA PEMESAN</h1>
+                        <h1 className="">DATA PEMESAN motor</h1>
                         <img src="" />
                         <p className="">Nama</p>
                         <img src="" />
