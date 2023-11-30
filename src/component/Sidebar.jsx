@@ -12,7 +12,7 @@ export default function Sidebar({ kondisi, toggleKondisi }) {
             {/* BG SIDEBAR */}
             <div className={`transition-all z-10 absolute right-0 w-1/2 h-screen bg-white-100   ${kondisi ? 'top-0' : '-top-full'}`}>
                 {/*  */}
-                <div className="flex flex-col items-start  bg-slate-100 h-full font-semibold   font-Montserrat text-white  border-slate-600">
+                <div className="flex flex-col items-start  bg-slate-100 h-full font-semibold   font-Montserrat text-white  border-slate-600 md:hidden">
                     <div className=" flex gap-2 hover:bg-blue-500 bg-blue-900 border-white p-1 pl-3 w-full">
                         <img src={home} className="h-5 " />
                         <NavLink className="w-full" to={"/"} onClick={() => toggleKondisi()}>
