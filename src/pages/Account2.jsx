@@ -9,6 +9,8 @@ const account2 = () => {
                 <h1 className='text-center font-Montserrat text-4xl text-blue-700 font-extrabold'>PROFILE</h1>
             </div>
 
+            {/* MOBILE */}
+            <div className="md:hidden">
             <div className="grid justify-items-center mt-10">
                 <img src={accountLg} className=' h-40' />
                 <div className="font-bold text-[#3D55AC] py-3">
@@ -37,7 +39,39 @@ const account2 = () => {
                         </div>
                     </div>
                 </div>
-                
+
+            </div>
+            </div>
+
+            {/* DEKSTOP */}
+            <div className="max-sm:hidden">
+            <div className="grid justify-items-center mt-10">
+                <img src={accountLg} className=' h-40' />
+                <div className="font-bold text-[#3D55AC] py-3">
+                    <h1>Seli Agalista Harahap</h1>
+                </div>
+            </div>
+            <div className='text-sm flex justify-center px-10 mb-10'>
+                <div className="px-5 ">
+                    <div className="font-bold">
+                        <div className="flex justify-between flex-col gap-5 mt-3 text-[#3D55AC]">
+                            <h1 className="font-Montserrat  text-xs"><span className="">No.Hp</span></h1>
+                            <h1 className="font-Montserrat  text-xs">Alamat </h1>
+                            <h1 className="font-Montserrat  text-xs">NIK </h1>
+                        </div>
+                    </div>
+                </div>
+                <div className="px-5 ">
+                    <div className="">
+                        <div className="flex justify-between flex-col gap-5 mt-3 text-[#3D55AC]">
+                            <h1 className="font-Montserrat  text-xs"><span className="">: 089623456789</span></h1>
+                            <h1 className="font-Montserrat  text-xs"> : Jl. Pleret No 05, Banguntapan Bantul. Daerah Istimewa Yogyakarta</h1>
+                            <h1 className="font-Montserrat  text-xs"> :  17710549090409001</h1>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
             </div>
         </>
     )

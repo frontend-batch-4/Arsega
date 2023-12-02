@@ -10,7 +10,13 @@ const History = () => {
             <div className="">
                 {/* HEADER */}
                 <div className="w-full flex justify-center  bg-white shadow-xl border ">
-                    <h1 className="absolute text-center text-blue-700 font-Montserrat text-[23px] font-extrabold mt-3">RIWAYAT <br /> PEMESANAN</h1>
+                    <h1 className="absolute text-center text-blue-700 font-Montserrat text-[23px] font-extrabold mt-3 max-sm:text-3xl">RIWAYAT <br /> PEMESANAN</h1>
+                    <img src={bglogo} className='h-[80px]' />
+                    <img src={bglogo} className='h-[80px]' />
+                    <img src={bglogo} className='h-[80px]' />
+                    <img src={bglogo} className='h-[80px]' />
+                    <img src={bglogo} className='h-[80px]' />
+                    <img src={bglogo} className='h-[80px]' />
                     <img src={bglogo} className='h-[80px]' />
                     <img src={bglogo} className='h-[80px]' />
                     <img src={bglogo} className='h-[80px]' />
