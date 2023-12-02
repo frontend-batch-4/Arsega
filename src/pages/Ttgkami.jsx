@@ -6,25 +6,38 @@ import szk from '../assets/Logo_suzuki1.png'
 import kwski from '../assets/Logo_kawasaki1.png'
 import mtrals from '../assets/MTRALASAN.png'
 import { Accordion } from 'react-daisyui';
+import bglogo from '../assets/BigLogo.png'
 const Ttgkami = () => {
     return (
         <>
-            <div className='p-8 shadow-xl'>
-                <h1 className="font-Montserrat text-center text-blue-800 text-3xl font-bold">SIAPA KAMI?</h1>
+            {/* SECTION 1 */}
+            <div className='w-full  flex  justify-between  bg-white shadow-xl border'>
+                <h2 className='self-center w-full absolute text-center text-blue-700 font-Montserrat text-4xl font-extrabold mt-3 max-sm:text-3xl'>TENTANG KAMI</h2>
+                <img src={bglogo} className='h-[95px]' />
+                <img src={bglogo} className='h-[95px]' />
+                <img src={bglogo} className='h-[95px]' />
+                <img src={bglogo} className='h-[95px]' />
+                <img src={bglogo} className='h-[95px]' />
+                <img src={bglogo} className='h-[95px]' />
+                <img src={bglogo} className='h-[95px]' />
+                <img src={bglogo} className='h-[95px]' />
+                <img src={bglogo} className='h-[95px]' />
+                <img src={bglogo} className='h-[95px]' />
+                <img src={bglogo} className='h-[95px]' />
+                <img src={bglogo} className='h-[95px]' />
             </div>
-            <section className=" py-12 justify-center flex flex-wrap  items-center gap-6 md:justify-evenly">
+            <section className="py-6 justify-center flex flex-wrap mt-3 items-center gap-6 md:justify-evenly">
                 <img src={honda} className="h-8 md:h-10 object-contain" />
                 <img src={ymha} className="h-8 md:h-10  object-contain" />
                 <img src={pgio} className="h-8 md:h-10  object-contain" />
                 <img src={szk} className="h-8 md:h-10  object-contain" />
                 <img src={kwski} className="h-8 md:h-10  object-contain" />
             </section>
-
-            <div className="">
-                <p className="font-extralight text-center">Selamat datang di Arsegarent, kenyamanan <br />
-                    dan keamanan anda adalah prioritas kami</p>
-                <img src={mtrals} className='p-10' />
+            <p className="text-center font-Montserrat font-light text-3xl  pt-3 pb-3 mt-3 max-sm:text-base">Selamat datang di Arsegarent, kenyamanan <br /> dan keamanan anda adalah prioritas kami</p>
+            <div className="grid justify-center md:p-20">
+                <img src={mtrals} className=" object-contain items-center h-96  " />
             </div>
+            
 
             <div className="font-Montserrat pl-3 p-3 text-justify  m-2 "> <span className='font-bold'> Kami adalah solusi terbaik</span> untuk semua kebutuhan sewa motor Anda.
                 Dengan pengalaman lebih dari 2 tahun di industri ini, kami telah memahami betul apa yang Anda butuhkan ketika datang ke penyewaan motor.
